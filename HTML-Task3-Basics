@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Task Html</title>
+</head>
+<body dir="rtl">
+<header>
+    <!--Navigation-->
+    <nav>
+        <ul>
+            <li><a href="../HTML-Task1-Basics/index.html">Task1</a></li>
+            <li><a href="../HTML-Task2-Basics/index.html">Task2</a></li>
+        </ul>
+    </nav>
+</header>
 
+    <!--Form-->
+    <form action="/submit" method="post">
+    <p>
+        <label for="name"> الإسم</label>
+        <input type="text" id="name" name="name" required>
+    </p>
+
+    <p>
+        <label for="email"> البريد الإلكترونى</label>
+        <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+        <label for="phone"> الهاتف</label>
+        <input type="tel" id="phone" name="phone" required>
+    </p>
+
+    <p>
+        <label for="message">  الرسالة</label>
+        <textarea  id="message" name="message" rows="5"></textarea>
+    </p>
+
+    <P>
+        <button type="submit">إرسال</button>
+    </p>
+    
+    </form>
+
+    <!--Table-->
+
+    <table>
+        <caption>My Weekly Study Schedule</caption>
+        <tr>
+            <th> Day </th>
+            <th> Activity </th>
+            <th> Time </th>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>study HTML</td>
+            <td>1:00 am</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>study CSS</td>
+            <td>10:00 am</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>study JS</td>
+            <td>12:00 Pm</td>
+        </tr>
+    </table>
+</body>
+</html>
