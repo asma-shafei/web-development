@@ -1,0 +1,16 @@
+.profile-card{
+    background-color: #f7efe0;
+    width: 300px;
+    padding: 30px 15px;
+    margin: 50px auto;
+    text-align: center;
+    border: solid 2px #62837e;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(48, 78, 74, 0.16);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 26px rgba(48, 78, 74, 0.22);
+}
